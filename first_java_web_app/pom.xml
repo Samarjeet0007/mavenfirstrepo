@@ -28,13 +28,6 @@
 </dependency>
   </dependencies>
   <build>
-  <plugins>
-  	<plugin>
-  		<groupId>org.apache.tomcat.maven</groupId>
-    	<artifactId>tomcat9_maven</artifactId>
-    	<version>9</version>
-  	</plugin>
-  </plugins>
     <finalName>first_java_web_app</finalName>
   </build>
 </project>
