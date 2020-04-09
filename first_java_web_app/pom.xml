@@ -29,5 +29,17 @@
   </dependencies>
   <build>
     <finalName>first_java_web_app</finalName>
-  </build>
+  <plugins>
+  <plugin>
+   <groupId>org.apache.tomcat.maven</groupId>
+   <artifactId>tomcat9-maven-plugin</artifactId>
+   <version>9</version>
+   <configuration>
+      <port>8089</port>
+      <username>tomcat</username>
+      <password>s3cret</password>
+   </configuration>
+</plugin>
+</plugins>
+</build>
 </project>
