@@ -28,7 +28,7 @@ pipeline
 			}
 		}
 	
-		stage('packaging:")
+		stage('packaging:')
 		{
 			steps
 			{
